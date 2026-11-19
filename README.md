@@ -38,7 +38,7 @@ An advanced Arduino-based smart home security and environmental control system f
 
 ## System Operation & States
 
-1. **Lock State (`mode = 0`)**: The system boots up prompting for the PIN (`Enter the pass: `). Entering the correct password (`1234`) unlocks the door servo for 5 seconds and transitions the system to operational mode. Entering a wrong PIN triggers a warning prompt.
+1. **Lock State (`mode = 0`)**: The system boots up prompting for the PIN (`Enter the pass: `). Entering the correct password (`Choose your own`) unlocks the door servo for 5 seconds and transitions the system to operational mode. Entering a wrong PIN triggers a warning prompt.
 2. **Operational / Home Mode (`mode = 1`)**: 
    * Continuously monitors temperature and humidity on the LCD.
    * Allows adjusting the fan trigger threshold dynamically using the potentiometer.
